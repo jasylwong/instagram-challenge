@@ -2,4 +2,5 @@
 - README
 - Rubocop
 - Simplecov
-- 
+- Travis
+- Users database table
