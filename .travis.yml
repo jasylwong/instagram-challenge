@@ -1,4 +1,7 @@
 language: ruby
 rvm:
- - 2.2
- - jruby
+ - 2.5
+
+ #Script to run tests
+script:
+  - bundle
