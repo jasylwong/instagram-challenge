@@ -1,29 +1,76 @@
 Instagram Challenge
 ===================
 
-## Instructions
+Check it out right now, [click here (coming soon...)](#)!
 
-* Challenge time: one weekend
-* Feel free to use Google, your notes, books, etc., but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday morning
+![front-page](./images/front-page.png)
 
-## Task
+[Objective](#Objective) |  [Installation](#Installation) | [Technologies](#Technologies) | | [User Stories](#user_stories) | [Mockups](#Mockups) | [Further adjustments](#further_adjustment)
 
-Build Instagram: Simple huh!
+## <a name="Objective">Objective</a>
 
-Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
+Create an instagram like app. It allows users to post their own photos, and comment and 'like' others'.
 
-Bonus if you can add filters!
+This app is based on the Makers weekend challenge 8. [Click here](https://github.com/makersacademy/instagram-challenge) for the original README.md.
 
-## How to start
+## <a name="Installation">Installation</a>
 
-1. Produce some stories, break them down into tasks, and estimate
-2. Fork this repo, clone, etc
-3. Initialize a new rails project
+Follow these instructions to use this app:
 
-Remember to proceed in small steps! Getting confused? Make the steps even smaller.
+AMEND THIS BIT!!
+```
+$ git clone https://github.com/jasylwong/news-summary-challenge.git
+$ cd news-summary-challenge
+$ npm install http-server -g
+$ http-server
+```
+To view the app navigate to: http://localhost:8080/
+
+## <a name="Technologies">Technologies</a>
+
+JavaScript, CSS and HTML
+
+## User stories
+
+```
+As a user
+So I can show off my baller lifestyle
+I want to post a photo online
+```
+```
+As a user
+So that I can post photos of mine
+I want to be able to sign up
+```
+```
+As a user
+So that only I can post photos of mine
+I want to be able to log in
+```
+```
+As a user
+So I can prevent people using my profile
+I want to be able to log out
+```
+```
+As a user
+So I can get feedback on my photos
+I want to enable people to comment on them
+```
+```
+As a user
+So I can show approval of other's photos
+I want to be able to 'like' them
+```
+
+
+## <a name="Mockups">Mockups</a>
+
+AMEND THIS BIT!!
+
+### Front page
+
+![Front page mockup](#)
 
 ## Code Quality
 
@@ -38,3 +85,11 @@ gem "rubocop-rails"
 You can also lint Javascript, CSS, and ERB — feel free to research this. These
 will help you to train yourself to produce cleaner code — and will often alert
 you to mistakes or mishaps!
+
+## <a name="further_adjustment">Further adjustments</a>
+
+Further features which are currently in progress, and will be available in subsequent releases:
+- Filters
+- 'Dislike' button
+- Tag users
+- Mobile version
