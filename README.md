@@ -1,5 +1,5 @@
-Instagram Challenge
-===================
+Instagram Challenge 📸
+======================
 
 Check it out right now, [click here (coming soon...)](#)!
 
