@@ -13,3 +13,36 @@
   </div>
   </br></br>
 <% end %>
+
+<div class='test'>test</div>
+
+<div id="message">
+    This is the text that appears when 
+    the page is first loaded.
+</div>
+<button id="change_message">Change</button>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    console.log( "ready posts!" );
+  });
+
+  $('#change_message').on('click', function(){
+      //The new text that we want to show.
+      var newText = 'This text has been changed!';
+  
+      //Change the text using the text method.
+      $('#message').text(newText);
+  });
+
+  $(function() {
+    $('.post-like').on('click', function() {
+      var post_id = $(this).data('id');
+
+      $(this).addClass('active')
+    })
+  })
+</script>
+
+
+

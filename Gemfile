@@ -5,7 +5,7 @@ ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
-
+# Use jQuery
 gem 'jquery-rails'
 # Use paperclip for adding images
 gem "paperclip", "~> 6.0.0"

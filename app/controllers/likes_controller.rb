@@ -1,6 +1,8 @@
 class LikesController < ApplicationController
 
   def save_like
+    p @current_user
+    p "-----"
     @like = Like.new(post_id: params[:post_id], account_id: @current_user.id)
     @post_id = params[:post_id]
 
@@ -15,5 +17,4 @@ class LikesController < ApplicationController
       }
     end
   end
-
 end
