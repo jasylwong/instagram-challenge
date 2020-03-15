@@ -4,3 +4,5 @@
 - Simplecov
 - Travis
 - Users database table
+- Sign up
+- Login

@@ -1,0 +1,10 @@
+<h1>Posts#index</h1>
+
+<% @posts.each do |post| %>
+  <%= image_tag(post.image.url(:medium)) %>
+  </br>
+  <%= post.description %>
+  </br>
+  </br>
+<% end %>
+
