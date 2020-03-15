@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
+
+  get "post/like/:post_id", to: "likes#save_like"
   
   get 'users/new'
   post '/signup',  to: 'users#create'

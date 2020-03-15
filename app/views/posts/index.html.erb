@@ -1,10 +1,15 @@
 <h1>Posts#index</h1>
 
 <% @posts.each do |post| %>
-  <%= image_tag(post.image.url(:medium)) %>
-  </br>
-  <%= post.description %>
-  </br>
-  </br>
+  <div class='post'>
+    <%= image_tag(post.image.url(:medium)) %>
+    </br>
+    <%= post.description %>
+    </br>
+    <div class='post-actions'>
+      <i class="fa fa-heart post-like like-<%= post.id %>" data-id="<%= post.id %>"></i>
+    </div>
+    <%= post.total_likes %> likes
+  </div>
+  </br></br>
 <% end %>
-
